@@ -1,4 +1,4 @@
-package de.papenhagen.chefkoch_scraper;
+package de.papenhagen.chefkochscraper;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
