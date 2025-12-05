@@ -1,0 +1,92 @@
+2025-12-05T18:46:18.352+01:00  INFO 24200 --- [chefkoch-scraper] [restartedMain] d.p.c.ChefkochScraperApplication         : Starting ChefkochScraperApplication using Java 25.0.1 with PID 24200 (/home/jay/code/chefkoch-scraper/target/classes started by jay in /home/jay/code/chefkoch-scraper)
+2025-12-05T18:46:18.354+01:00  INFO 24200 --- [chefkoch-scraper] [restartedMain] d.p.c.ChefkochScraperApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-12-05T18:46:18.394+01:00  INFO 24200 --- [chefkoch-scraper] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-05T18:46:18.691+01:00  INFO 24200 --- [chefkoch-scraper] [restartedMain] d.p.c.ChefkochScraperApplication         : Started ChefkochScraperApplication in 0.689 seconds (process running for 0.961)
+2025-12-05T19:46:03.979+01:00  INFO 34232 --- [chefkoch-scraper] [main] d.p.c.ChefkochScraperApplicationTests    : Starting ChefkochScraperApplicationTests using Java 25.0.1 with PID 34232 (started by jay in /home/jay/code/chefkoch-scraper)
+2025-12-05T19:46:03.980+01:00  INFO 34232 --- [chefkoch-scraper] [main] d.p.c.ChefkochScraperApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2025-12-05T19:46:04.550+01:00  INFO 34232 --- [chefkoch-scraper] [main] d.p.c.ChefkochScraperApplicationTests    : Started ChefkochScraperApplicationTests in 0.869 seconds (process running for 1.787)
+2025-12-05T19:46:05.426+01:00 ERROR 34232 --- [chefkoch-scraper] [main] d.p.c.service.ChefkochRecipeScraper      : HTTP fetch failed: 404 NOT_FOUND
+2025-12-05T19:46:05.427+01:00 DEBUG 34232 --- [chefkoch-scraper] [main] o.s.web.client.DefaultRestClient         : Reading to [java.lang.String] as "text/html;charset=utf-8"
+2025-12-05T19:46:05.564+01:00  INFO 34232 --- [chefkoch-scraper] [main] d.p.c.service.ChefkochRecipeScraper      : recipe done
+2025-12-05T19:46:05.674+01:00 ERROR 34232 --- [chefkoch-scraper] [main] d.p.c.service.ChefkochRecipeScraper      : HTTP fetch failed: 404 NOT_FOUND
+2025-12-05T19:46:05.674+01:00 DEBUG 34232 --- [chefkoch-scraper] [main] o.s.web.client.DefaultRestClient         : Reading to [java.lang.String] as "text/html;charset=utf-8"
+2025-12-05T19:46:05.711+01:00  INFO 34232 --- [chefkoch-scraper] [main] d.p.c.service.ChefkochRecipeScraper      : recipe done
+2025-12-05T19:46:05.777+01:00 ERROR 34232 --- [chefkoch-scraper] [main] d.p.c.service.ChefkochRecipeScraper      : HTTP fetch failed: 404 NOT_FOUND
+2025-12-05T19:46:05.778+01:00 DEBUG 34232 --- [chefkoch-scraper] [main] o.s.web.client.DefaultRestClient         : Reading to [java.lang.String] as "text/html;charset=utf-8"
+2025-12-05T19:46:05.816+01:00  INFO 34232 --- [chefkoch-scraper] [main] d.p.c.service.ChefkochRecipeScraper      : recipe done
+2025-12-05T19:46:05.881+01:00 ERROR 34232 --- [chefkoch-scraper] [main] d.p.c.service.ChefkochRecipeScraper      : HTTP fetch failed: 404 NOT_FOUND
+2025-12-05T19:46:05.882+01:00 DEBUG 34232 --- [chefkoch-scraper] [main] o.s.web.client.DefaultRestClient         : Reading to [java.lang.String] as "text/html;charset=utf-8"
+2025-12-05T19:46:05.918+01:00  INFO 34232 --- [chefkoch-scraper] [main] d.p.c.service.ChefkochRecipeScraper      : recipe done
+2025-12-05T19:46:06.324+01:00 ERROR 34232 --- [chefkoch-scraper] [main] d.p.c.service.ChefkochRecipeScraper      : HTTP fetch failed: 404 NOT_FOUND
+2025-12-05T19:46:06.326+01:00 DEBUG 34232 --- [chefkoch-scraper] [main] o.s.web.client.DefaultRestClient         : Reading to [java.lang.String] as "text/html;charset=utf-8"
+2025-12-05T19:46:06.448+01:00  INFO 34232 --- [chefkoch-scraper] [main] d.p.c.service.ChefkochRecipeScraper      : recipe done
+2025-12-05T19:46:06.496+01:00 ERROR 34232 --- [chefkoch-scraper] [main] d.p.c.service.ChefkochRecipeScraper      : HTTP fetch failed: 404 NOT_FOUND
+2025-12-05T19:46:06.497+01:00 DEBUG 34232 --- [chefkoch-scraper] [main] o.s.web.client.DefaultRestClient         : Reading to [java.lang.String] as "text/html;charset=utf-8"
+2025-12-05T19:46:06.527+01:00  INFO 34232 --- [chefkoch-scraper] [main] d.p.c.service.ChefkochRecipeScraper      : recipe done
+2025-12-05T19:46:06.532+01:00  INFO 34232 --- [chefkoch-scraper] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [de.papenhagen.chefkochscraper.service.ScraperIntegrationTest]: ScraperIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-12-05T19:46:06.538+01:00  INFO 34232 --- [chefkoch-scraper] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration de.papenhagen.chefkochscraper.ChefkochScraperApplication for test class de.papenhagen.chefkochscraper.service.ScraperIntegrationTest
+2025-12-05T19:46:06.719+01:00 ERROR 34232 --- [chefkoch-scraper] [main] d.p.c.service.ChefkochRecipeScraper      : HTTP fetch failed: 404 NOT_FOUND
+2025-12-05T19:46:06.721+01:00 DEBUG 34232 --- [chefkoch-scraper] [main] o.s.web.client.DefaultRestClient         : Reading to [java.lang.String] as "text/html;charset=utf-8"
+2025-12-05T19:46:06.777+01:00  INFO 34232 --- [chefkoch-scraper] [main] d.p.c.service.ChefkochRecipeScraper      : recipe done
+2025-12-05T20:39:20.728+01:00  INFO 45397 --- [chefkoch-scraper] [restartedMain] d.p.c.ChefkochScraperApplication         : Starting ChefkochScraperApplication using Java 25.0.1 with PID 45397 (/home/jay/code/chefkoch-scraper/target/classes started by jay in /home/jay/code/chefkoch-scraper)
+2025-12-05T20:39:20.730+01:00  INFO 45397 --- [chefkoch-scraper] [restartedMain] d.p.c.ChefkochScraperApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-12-05T20:39:20.775+01:00  INFO 45397 --- [chefkoch-scraper] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-05T20:39:21.336+01:00  INFO 45397 --- [chefkoch-scraper] [restartedMain] d.p.c.ChefkochScraperApplication         : Started ChefkochScraperApplication in 1.003 seconds (process running for 1.313)
+2025-12-05T20:40:54.171+01:00  INFO 45912 --- [chefkoch-scraper] [restartedMain] d.p.c.ChefkochScraperApplication         : Starting ChefkochScraperApplication using Java 25.0.1 with PID 45912 (/home/jay/code/chefkoch-scraper/target/classes started by jay in /home/jay/code/chefkoch-scraper)
+2025-12-05T20:40:54.174+01:00  INFO 45912 --- [chefkoch-scraper] [restartedMain] d.p.c.ChefkochScraperApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-12-05T20:40:54.220+01:00  INFO 45912 --- [chefkoch-scraper] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-05T20:40:54.220+01:00  INFO 45912 --- [chefkoch-scraper] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-05T20:40:54.910+01:00  INFO 45912 --- [chefkoch-scraper] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-05T20:40:54.920+01:00  INFO 45912 --- [chefkoch-scraper] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-05T20:40:54.920+01:00  INFO 45912 --- [chefkoch-scraper] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-05T20:40:54.941+01:00  INFO 45912 --- [chefkoch-scraper] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 720 ms
+2025-12-05T20:40:55.194+01:00 DEBUG 45912 --- [chefkoch-scraper] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2025-12-05T20:40:55.211+01:00 DEBUG 45912 --- [chefkoch-scraper] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-12-05T20:40:55.221+01:00 DEBUG 45912 --- [chefkoch-scraper] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-12-05T20:40:55.251+01:00 DEBUG 45912 --- [chefkoch-scraper] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-12-05T20:40:55.283+01:00  INFO 45912 --- [chefkoch-scraper] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-05T20:40:55.287+01:00  INFO 45912 --- [chefkoch-scraper] [restartedMain] d.p.c.ChefkochScraperApplication         : Started ChefkochScraperApplication in 1.485 seconds (process running for 1.791)
+2025-12-05T20:40:59.556+01:00  INFO 45912 --- [chefkoch-scraper] [tomcat-handler-0] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-05T20:40:59.557+01:00  INFO 45912 --- [chefkoch-scraper] [tomcat-handler-0] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-05T20:40:59.557+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-0] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-12-05T20:40:59.557+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-0] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-12-05T20:40:59.558+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-0] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7f78e397
+2025-12-05T20:40:59.558+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-0] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@4fd75110
+2025-12-05T20:40:59.558+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-0] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-12-05T20:40:59.558+01:00  INFO 45912 --- [chefkoch-scraper] [tomcat-handler-0] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-12-05T20:40:59.563+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-0] o.s.web.servlet.DispatcherServlet        : GET "/api/", parameters={}
+2025-12-05T20:40:59.569+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-0] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-12-05T20:40:59.572+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-0] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-12-05T20:40:59.574+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-0] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api for request '/api/'.]
+2025-12-05T20:40:59.574+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-0] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-12-05T20:40:59.578+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-0] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2025-12-05T20:40:59.579+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-0] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.webmvc.autoconfigure.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2025-12-05T20:40:59.591+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-0] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2025-12-05T20:40:59.595+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-0] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-12-05T20:40:59.658+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-1] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2025-12-05T20:40:59.659+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-12-05T20:40:59.659+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-12-05T20:40:59.660+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico for request '/favicon.ico'.]
+2025-12-05T20:40:59.660+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-12-05T20:40:59.660+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2025-12-05T20:40:59.660+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.webmvc.autoconfigure.error.BasicErrorController#error(HttpServletRequest)
+2025-12-05T20:40:59.663+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.5', given [image/avif, image/webp, image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5] and supported [application/json, application/*+json]
+2025-12-05T20:40:59.664+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Dec 05 20:40:59 CET 2025, status=404, error=Not Found, trace=org.springframework.web. (truncated)...]
+2025-12-05T20:40:59.684+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-12-05T20:41:08.620+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-2] o.s.web.servlet.DispatcherServlet        : GET "/api/scrape?url=https://www.chefkoch.de/rezepte/3322031493296766/Vollkornbrot-aus-dem-Thermomix.html", parameters={masked}
+2025-12-05T20:41:08.621+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to de.papenhagen.chefkochscraper.controller.RecipeScraperController#scrape(String)
+2025-12-05T20:41:09.711+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-2] o.s.web.client.DefaultRestClient         : Reading to [java.lang.String] as "text/html;charset=utf-8"
+2025-12-05T20:41:09.850+01:00  INFO 45912 --- [chefkoch-scraper] [tomcat-handler-2] d.p.c.service.ChefkochRecipeScraper      : recipe done
+2025-12-05T20:41:09.852+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, application/xml;q=0.9, */*;q=0.8] and supported [application/json, application/*+json]
+2025-12-05T20:41:09.855+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [Recipe[title=Vollkornbrot aus dem Thermomix, ingredients=[500 g Dinkelvollkornmehl, 500 g Wasser, 1  (truncated)...]
+2025-12-05T20:41:09.874+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-05T20:41:09.903+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-3] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2025-12-05T20:41:09.904+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-12-05T20:41:09.906+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-3] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-12-05T20:41:09.907+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico for request '/favicon.ico'.]
+2025-12-05T20:41:09.907+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-12-05T20:41:09.907+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2025-12-05T20:41:09.908+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.webmvc.autoconfigure.error.BasicErrorController#error(HttpServletRequest)
+2025-12-05T20:41:09.908+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.5', given [image/avif, image/webp, image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5] and supported [application/json, application/*+json]
+2025-12-05T20:41:09.908+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Dec 05 20:41:09 CET 2025, status=404, error=Not Found, trace=org.springframework.web. (truncated)...]
+2025-12-05T20:41:09.909+01:00 DEBUG 45912 --- [chefkoch-scraper] [tomcat-handler-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
