@@ -1,3 +1,26 @@
+server:
+  port: 8080
+
+logging:
+  file:
+    path: ./logs
+  level:
+    root: info
+    org.springframework.web: debug
+
 spring:
   application:
     name: chefkoch-scraper
+
+  threads:
+    virtual:
+      enabled: true
+
+    web:
+      error:
+        include-message: always
+        include-binding-errors: always
+        include-stacktrace: never
+        include-exception: false
+        whitelabel:
+          enabled: false
