@@ -40,7 +40,7 @@ public class ChefkochRecipeScraper {
      */
     public Recipe scrapeRecipe(final String url) {
         if (url == null || url.isEmpty()) {
-            throw new IllegalStateException("No URL provided");
+            throw new IllegalArgumentException("No URL provided");
         }
         final String checkedURL = url.startsWith("https") ? url : BASE_URL + url;
         log.debug("Scraping recipe from URL={}", url);
