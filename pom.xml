@@ -64,6 +64,13 @@
             <version>1.21.2</version>
         </dependency>
 
+        <!-- JToon -->
+        <dependency>
+            <groupId>io.github.giovannicaggianella</groupId>
+            <artifactId>spring-boot-starter-toon</artifactId>
+            <version>0.3.0</version>
+        </dependency>
+
         <!-- Test -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
