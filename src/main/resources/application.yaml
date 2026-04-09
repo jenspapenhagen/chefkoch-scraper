@@ -24,3 +24,5 @@ spring:
         include-exception: false
         whitelabel:
           enabled: false
+toon:
+  enabled=true:
